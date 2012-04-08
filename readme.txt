@@ -31,7 +31,7 @@ To prevent certain verses from being linked, place the text you want NETBibleTag
 
 == Screenshots ==
 
-1. no screenshots
+1. Netwiwble Tagger Configuration scree.
 
 == Changelog ==
 
