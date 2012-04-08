@@ -17,7 +17,7 @@ NETBibleTagger makes citing Bible references easier than ever. Simply copy the h
 
 NETBibleTagger supports all of the Bible book names and their standard abbreviations. It will recognize and tag books with only one chapter (e.g., Matthew 1 or Matthew 2:9). It also handles multiple verses and chapters in a row with verses separated by commas and chapter:verse groups separated by semi-colons (e.g., Acts 3:16-18; 4:2-4), and recognizes many other common abbreviations and formats (e.g., Lk 2:1; 4:4; Gal 3:3; 3:8-10; Eph 3:1; 4:2). Whether you use a hyphen (-) or an en dash (–), NETBibleTagger will correctly recognize and tag your Bible references (e.g., Rom 5:1-10; Eph 2:8–9).
 
-To prevent certain verses from being linked, place the text you want NETBibleTagger to ignore inside of <cite></cite> tags. == Installation ==
+To prevent certain verses from being linked, place the text you want NETBibleTagger to ignore inside of <cite></cite> tags.
 
 == Installation ==
 
@@ -31,7 +31,7 @@ To prevent certain verses from being linked, place the text you want NETBibleTag
 
 == Screenshots ==
 
-1. no screenshots
+1. Netwiwble Tagger Configuration scree.
 
 == Changelog ==
 
