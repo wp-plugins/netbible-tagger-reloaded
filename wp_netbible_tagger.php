@@ -45,13 +45,13 @@ if (!defined('ABSPATH')) {
 }
 
 /* Set constants for plugin */
-define( 'WP_NETBIBLE_TAGGER_URL', WP_PLUGIN_URL.'/wp-netbible-tagger' );
-define( 'WP_NETBIBLE_TAGGER_DIR', WP_PLUGIN_DIR.'/wp-netbible-tagger' );
+define( 'WP_NETBIBLE_TAGGER_URL', WP_PLUGIN_URL.'/netbible-tagger-reloaded' );
+define( 'WP_NETBIBLE_TAGGER_DIR', WP_PLUGIN_DIR.'/netbible-tagger-reloaded' );
 define( 'WP_NETBIBLE_TAGGER_VER', '1.2' );
 define( 'WP_NETBIBLE_TAGGER_NAME', 'NETBile Tagger' );
 define( 'WP_NETBIBLE_TAGGER_DOMAIN', 'wp-netbible-tagger' );
 define( 'WP_NETBIBLE_TAGGER_WP_VERSION_REQ', '3.3' );
-define( 'WP_NETBIBLE_TAGGER_FILE_NAME', 'wp-netbible-tagger/wp-netbible-tagger.php' );
+define( 'WP_NETBIBLE_TAGGER_FILE_NAME', 'netbible-tagger-reloaded/wp-netbible-tagger.php' );
 define( 'WP_NETBIBLE_TAGGER_FILE_HOOK', 'wp_netbible_tagger' );
 define( 'WP_NETBIBLE_TAGGER_PAGEHOOK', WP_NETBIBLE_TAGGER_FILE_HOOK.'_options_page');
 
