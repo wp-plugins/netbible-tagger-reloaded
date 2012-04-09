@@ -4,8 +4,8 @@
 Plugin URI: http://www.kelloggskorner.com
 Description: Automatically insert NETBible Tagger into your footer(For Wordpress 3+)<br/>Powered by <a href="http://labs.bible.org/NETBibleTagger">NETBible Tagger</a>
 Author: Adam (zerzix) Kellogg
+Version: 0.01
 Author URI: http://www.kelloggskorner.com
-Version: 1.0
 */
 
 /*  Copyright 2012  Adam (Zerzix) Kellogg  (email : adam@kelloggskorner.com)
@@ -45,16 +45,16 @@ if (!defined('ABSPATH')) {
 }
 
 /* Set constants for plugin */
-define( 'WP_NETBIBLE_TAGGER_URL', WP_PLUGIN_URL.'/wp-netbible-tagger' );
-define( 'WP_NETBIBLE_TAGGER_DIR', WP_PLUGIN_DIR.'/wp-netbible-tagger' );
+define( 'WP_NETBIBLE_TAGGER_URL', WP_PLUGIN_URL.'/netbible-tagger-reloaded' );
+define( 'WP_NETBIBLE_TAGGER_DIR', WP_PLUGIN_DIR.'/netbible-tagger-reloaded' );
 define( 'WP_NETBIBLE_TAGGER_VER', '1.2' );
 define( 'WP_NETBIBLE_TAGGER_NAME', 'NETBile Tagger' );
 define( 'WP_NETBIBLE_TAGGER_DOMAIN', 'wp-netbible-tagger' );
 define( 'WP_NETBIBLE_TAGGER_WP_VERSION_REQ', '3.3' );
-define( 'WP_NETBIBLE_TAGGER_FILE_NAME', 'wp-netbible-tagger/wp-netbible-tagger.php' );
+define( 'WP_NETBIBLE_TAGGER_FILE_NAME', 'netbible-tagger-reloaded/wp-netbible-tagger.php' );
 define( 'WP_NETBIBLE_TAGGER_FILE_HOOK', 'wp_netbible_tagger' );
 define( 'WP_NETBIBLE_TAGGER_PAGEHOOK', WP_NETBIBLE_TAGGER_FILE_HOOK.'_options_page');
-define( 'WP_NETBIBLE_TAGGER_HOME', 'http://dev.kelloggskorner.com/netbibletagger' );
+
 
 /***** Load files needed for plugin to run ********************/
 
