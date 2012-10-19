@@ -4,7 +4,7 @@
 Plugin URI: http://www.kelloggskorner.com
 Description: Automatically insert NETBible Tagger into your footer(For Wordpress 3+)<br/>Powered by <a href="http://labs.bible.org/NETBibleTagger">NETBible Tagger</a>
 Author: Adam (zerzix) Kellogg
-Version: 1.1
+Version: 1.2
 Author URI: http://www.kelloggskorner.com
 */
 
@@ -36,8 +36,9 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 * @since 	1.0
 * @author 	Adam (Zerzix) Kellogg
 * @uses 	is_admin()
-* @requires	dashbord.php
-* @requires	injector.php
+* @requires	public-core.php
+* @requires	admin-core.php
+* @requires	widgets.php
 */
 /* Prevent direct access to the plugin */
 if (!defined('ABSPATH')) {
@@ -77,4 +78,5 @@ if( !is_admin() ) {
 if( is_admin() ) {
 	require_once( WP_NETBIBLE_TAGGER_DIR . '/includes/admin-core.php');
 }
+require_once( WP_NETBIBLE_TAGGER_DIR . '/includes/widgets.php');
 ?>
