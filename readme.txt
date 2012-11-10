@@ -2,7 +2,7 @@
 Contributors: Zerzix
 Tags: NetBible Tagger
 Requires at least: 3.0
-Tested up to: 3.3.1
+Tested up to: 3.4.2
 Stable tag: 1.3
 License: GPL2
 
@@ -33,7 +33,7 @@ To prevent certain verses from being linked, place the text you want NETBibleTag
 1. Netwiwble Tagger Configuration scree.
 
 == Changelog ==
-
-1.20 added inline documentation
+1.30 Added bible.org widgets and updated compatability
+1.10 added inline documentation
 
 
